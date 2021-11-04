@@ -5,7 +5,7 @@ pipeline
        stage ('Pull') {
             steps {
                script{
-			checkout([$class: 'GitSCM', branches: [[name: '*/master']],
+			checkout([$class: 'GitSCM', branches: [[name: '*/main']],
 			    userRemoteConfigs: [[
 			    	credentialsId: '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',
 				url: 'https://github.com/medlahsoumi/MyApp2.git']]])
