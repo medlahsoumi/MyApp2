@@ -19,5 +19,6 @@ pipeline
       	    	sh "ansible-playbook ansible/build.yml"
       	    	}
       	    } 
+	}
 }
 }
