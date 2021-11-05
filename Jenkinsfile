@@ -15,10 +15,10 @@ pipeline
       stage('Build')
       {
       	    steps {
-      	    	script{
-      	    	sh "ansible-playbook ansible/build.yml"
-      	    	}
+      	       script{
+      	       sh "ansible-playbook ansible/build.yml"
+      	       }
       	    } 
-	}
+      }
 }
 }
