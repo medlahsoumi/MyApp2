@@ -5,10 +5,11 @@
   docker_login:
     username: medlahsoumi
     password: 7c48f27f-0b66-4834-9837-de15e9ffb59e
+    email: mohamed.lahsoumi@hotmail.fr
 
 - name: Tag and push to docker hub
   docker_image:
-    name: devops:latest
+    name: devops
     repository: medlahsoumi/devops
-    tag: end 
+    tag: latest 
     push: yes
