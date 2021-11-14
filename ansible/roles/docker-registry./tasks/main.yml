@@ -3,12 +3,12 @@
 
 - name: Log into DockerHub
   docker_login:
-    username: medlah2
-    password: fa4c5cca-de07-4736-9894-fd96a5337a3e
+    username: medlahsoumi
+    password: 7c48f27f-0b66-4834-9837-de15e9ffb59e
 
 - name: Tag and push to docker hub
   docker_image:
     name: devops:latest
-    repository: medlah2/devops
+    repository: medlahsoumi/devops
     tag: end 
     push: yes
